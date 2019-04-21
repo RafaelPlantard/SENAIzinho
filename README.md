@@ -2,26 +2,26 @@
 ## Projeto: SENAIzinho
 ### DESAFIO_1:
 ```
-   Aluno
-       string nome;
-       DateTime dataNascimento;
-       string Curso;
-       int numeroSala;
+Aluno
+    string nome;
+    DateTime dataNascimento;
+    string Curso;
+    int numeroSala;
 
-   Sala
-       int numeroSala;
-       int capacidadeAtual;
-       int capacidadeTotal;
-       string[] alunos;
+Sala
+    int numeroSala;
+    int capacidadeAtual;
+    int capacidadeTotal;
+    string[] alunos;
 ```
 
 Desenvolva uma aplicação para o registro de alunos e salas no qual o usuário deve escolher entre as seguintes opções:
-1. Cadastrar Aluno  
-2. Cadastrar Sala  
-3. Alocar Aluno  
-4. Remover Aluno  
-5. Verificar Salas  
-6. Verificar Alunos  
+1. Cadastrar Aluno
+2. Cadastrar Sala
+3. Alocar Aluno
+4. Remover Aluno
+5. Verificar Salas
+6. Verificar Alunos
 0. Sair
 
 - Cadastre ao menos 4 alunos e 1 sala.
