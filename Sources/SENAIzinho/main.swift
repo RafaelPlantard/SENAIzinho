@@ -1,3 +1,5 @@
+let school = School()
+
 Console.writeLine("1. Cadastrar Aluno")
 Console.writeLine("2. Cadastrar Sala")
 Console.writeLine("3. Alocar Aluno")
