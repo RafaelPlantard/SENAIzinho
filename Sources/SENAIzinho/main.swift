@@ -13,6 +13,8 @@ repeat {
 
     option = Console.readLine()
 
+    Console.clear()
+
     switch option {
     case 1: school.students.append(Student.register())
     case 2: school.classrooms.append(Classroom.register())
@@ -22,4 +24,6 @@ repeat {
     case 6: school.listStudents()
     default: break
     }
+
+    Console.clear()
 } while (option >= 1 && option <= 6)

@@ -20,21 +20,29 @@ struct School {
 
     func listStudents() {
         guard !students.isEmpty else {
-            return Console.writeLine("Não há alunos cadastrados ainda.")
+            Console.writeLine("Não há alunos cadastrados ainda.")
+
+            return Console.wait()
         }
 
         students.forEach { student in
             Console.writeLine(student.description)
         }
+
+        Console.wait()
     }
 
     func listClassrooms() {
         guard !classrooms.isEmpty else {
-            return Console.writeLine("Não há salas cadastradas ainda.")
+            Console.writeLine("Não há salas cadastradas ainda.")
+
+            return Console.wait()
         }
 
         classrooms.forEach { classroom in
             Console.writeLine(classroom.description)
         }
+
+        Console.wait()
     }
 }
